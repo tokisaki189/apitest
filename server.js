@@ -42,7 +42,6 @@ app.get("/", function (req, res) {
       languages: ["JavaScript", "HTML", "CSS"],
       hasPets: true,
     },
-    // Các đối tượng JSON khác
   ]);
 });
 app.listen(PORT, function () {
